@@ -97,7 +97,7 @@ p {
   overflow: hidden;
 }
 
-.navbar ul li {
+.navbar ul a {
   display: block;
   padding: 38px 16px;
   font-family: "Barlow Condensed";
@@ -109,8 +109,12 @@ p {
   border-bottom: 3px solid transparent;
 }
 
-.navbar ul li:hover {
+.navbar ul a:hover {
   border-bottom: 3px solid #fff;
+}
+
+.active {
+  border-bottom: 3px solid #fff !important;
 }
 
 .navbar span {
@@ -137,4 +141,23 @@ p {
   .navbar_divider {
     z-index: 0;
   }
+}
+
+.circle-container {
+  position: relative;
+}
+
+.outer-circle {
+  z-index: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+.inner-circle {
+  position: relative;
+  z-index: 2;
 }

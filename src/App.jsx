@@ -1,12 +1,9 @@
-import Container from "./Layouts/Container";
-import { Home } from "./pages";
+import Router from "./routes/Router";
 
 function App() {
   return (
     <>
-      <Container>
-        <Home />
-      </Container>
+      <Router />
     </>
   );
 }

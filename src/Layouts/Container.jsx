@@ -1,12 +1,13 @@
 import React from "react";
 import NavBar from "../components/NavBar";
-import InnerContainer from "./InnerContainer";
 
-const Container = ({ children }) => {
+const Container = ({ children, style }) => {
   return (
-    <div className="max-w-screen-2xl m-auto bg-background-home-desktop h-screen bg-no-repeat bg-cover">
+    <div
+      className={`max-w-screen-2xl m-auto ${style} h-full bg-no-repeat bg-cover`}
+    >
       <NavBar />
-      <div className="px-[55px] py-[40px]">{children}</div>
+      <div className="xs:px-[55px] px-[24px] py-[40px]">{children}</div>
     </div>
   );
 };
