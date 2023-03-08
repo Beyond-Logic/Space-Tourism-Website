@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import Container from "../layouts1/Container";
+import Container from "../layouts/Container";
 
 const Home = () => {
   const [isHovered, setIsHovered] = useState(false);
