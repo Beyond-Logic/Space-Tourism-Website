@@ -3,7 +3,7 @@ export const data = {
     {
       name: "Moon",
       images: {
-        png: "./src/assets/destination/image-moon.png",
+        png: "./assets/destination/image-moon.png",
         webp: "./src/assets/destination/image-moon.webp",
       },
       description:
