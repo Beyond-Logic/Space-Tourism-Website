@@ -19,7 +19,7 @@ h4,
 
 h5,
 h6,
-.nav_text {
+span .nav_text {
   font-family: "Barlow Condensed", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -36,6 +36,19 @@ h1 {
 h2 {
   font-size: 100px;
   line-height: 115px;
+}
+
+@media (max-width: 767px) {
+  h2 {
+    font-size: 56px;
+    line-height: 64px;
+  }
+}
+@media (min-width: 1024px) {
+  h2 {
+    font-size: 80px;
+    line-height: 92px;
+  }
 }
 
 h3 {
@@ -63,6 +76,7 @@ h6 {
   font-size: 14px;
   line-height: 17px;
   letter-spacing: 2.3625px;
+  color: #d0d6f9;
 }
 
 .nav_text {
@@ -115,6 +129,7 @@ p {
 
 .active {
   border-bottom: 3px solid #fff !important;
+  color: #fff !important;
 }
 
 .navbar span {
@@ -143,6 +158,30 @@ p {
   }
 }
 
+.navbar_inner ul {
+  overflow: hidden;
+  overflow-x: scroll;
+}
+
+.navbar_inner ul a {
+  display: block;
+  padding: 12px 0px;
+  font-family: "Barlow Condensed";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 2.7px;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-bottom: 3px solid transparent;
+  color: #d0d6f9;
+}
+
+.navbar_inner ul a:hover {
+  border-bottom: 3px solid #fff;
+}
+
 .circle-container {
   position: relative;
 }
@@ -154,8 +193,6 @@ p {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-
-
 
 .inner-circle {
   position: relative;

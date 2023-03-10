@@ -20,7 +20,7 @@ const NavBar = () => {
           <NavLink to="/" activeclassname="active">
             <span>00</span>Home
           </NavLink>
-          <NavLink to="/destination" activeclassname="active">
+          <NavLink to="/destination/moon" activeclassname="active">
             <span>01</span>Destination
           </NavLink>
           <NavLink to="/crew" activeclassname="active">
