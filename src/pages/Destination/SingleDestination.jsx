@@ -1,5 +1,4 @@
 import React from "react";
-import MoonImage from "../../assets/destination/image-moon.webp";
 import InnerNavBar from "../../components/InnerNavBar";
 import { useParams } from "react-router-dom";
 
