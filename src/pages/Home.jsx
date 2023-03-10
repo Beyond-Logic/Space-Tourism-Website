@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Container from "../layouts/Container";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   const [isHovered, setIsHovered] = useState(false);
@@ -48,14 +49,18 @@ const Home = () => {
                 mixBlendMode: "normal",
               }}
             ></div>
-            <div
-              className="inner-circle cursor-pointer flex justify-center items-center bg-white lg:h-[274px] lg:w-[274px] w-[150px] h-[150px] lg:m-0 m-auto rounded-full 
+            <Link to="/destination/moon">
+              <div
+                className="inner-circle cursor-pointer flex justify-center items-center bg-white lg:h-[274px] lg:w-[274px] w-[150px] h-[150px] lg:m-0 m-auto rounded-full 
           "
-              onMouseEnter={() => setIsHovered(true)}
-              onMouseLeave={() => setIsHovered(false)}
-            >
-              <h4 className="text-[#0B0D17] lg:text-[32px] text-xl">EXPLORE</h4>
-            </div>
+                onMouseEnter={() => setIsHovered(true)}
+                onMouseLeave={() => setIsHovered(false)}
+              >
+                <h4 className="text-[#0B0D17] lg:text-[32px] text-xl">
+                  EXPLORE
+                </h4>
+              </div>
+            </Link>
           </div>
         </div>
       </Container>
