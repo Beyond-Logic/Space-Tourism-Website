@@ -189,6 +189,18 @@ p {
 .mobile_menu {
   background: rgba(255, 255, 255, 0.04);
   backdrop-filter: blur(40.7742px);
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 80%;
+  z-index: 999;
+  transform: translateX(-100%);
+  transition: transform 0.3s ease-in-out;
+}
+
+.mobile_menu_open {
+  transform: translateX(0);
 }
 
 .circle-container {

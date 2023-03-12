@@ -2,9 +2,9 @@ import React from "react";
 import { Link } from "react-router-dom";
 import IconClose from "../assets/shared/icon-close.svg";
 
-const MobileMenu = ({ onClick }) => {
+const MobileMenu = ({ onClick, open }) => {
   return (
-    <div className="mobile_menu absolute w-[70%] right-0 h-full h-screen top-0 z-50">
+    <div className={`mobile_menu ${open}`}>
       <img
         src={IconClose}
         alt="Icon Close"

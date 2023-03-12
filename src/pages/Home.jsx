@@ -25,6 +25,7 @@ const Home = () => {
             ? "bg-background-home-tablet"
             : "bg-background-home-mobile"
         }`}
+        style1="xs:px-[55px] px-[24px]"
       >
         <div className="flex lg:flex-row flex-col lg:justify-between justify-center lg:items-end xl:px-[115px] lg:px-[40px] pt-[151px] pb-[131px] lg:text-left text-center">
           <div className="flex flex-col gap-6 ">

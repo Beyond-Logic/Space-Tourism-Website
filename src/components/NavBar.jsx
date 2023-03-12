@@ -63,7 +63,7 @@ const NavBar = () => {
         )}
       </div>
       {toggleMobileMenu ? (
-        <MobileMenu onClick={() => settoggleMobileMenu(!toggleMobileMenu)} />
+        <MobileMenu onClick={() => settoggleMobileMenu(!toggleMobileMenu)} open={toggleMobileMenu ? "mobile_menu_open": ""} />
       ) : (
         ""
       )}
