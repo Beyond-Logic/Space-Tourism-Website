@@ -4,9 +4,9 @@ import Router from "./routes/Router";
 function App() {
   return (
     <>
-      <LoadingOverlay>
+      {/* <LoadingOverlay> */}
         <Router />
-      </LoadingOverlay>
+      {/* </LoadingOverlay> */}
     </>
   );
 }
