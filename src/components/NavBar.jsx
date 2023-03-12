@@ -50,14 +50,14 @@ const NavBar = () => {
           <img
             src={IconClose}
             alt="Icon Close"
-            className="md:hidden block cursor-pointer"
+            className="md:hidden block cursor-pointer w-full h-full"
             onClick={() => settoggleMobileMenu(!toggleMobileMenu)}
           />
         ) : (
           <img
             src={IconHamburger}
             alt="Icon Hamburger Open"
-            className="md:hidden block cursor-pointer"
+            className="md:hidden block cursor-pointer w-full h-full"
             onClick={() => settoggleMobileMenu(!toggleMobileMenu)}
           />
         )}
