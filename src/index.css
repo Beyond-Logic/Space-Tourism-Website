@@ -111,11 +111,11 @@ p {
   }
 }
 
-.navbar ul {
+.navbar div {
   overflow: hidden;
 }
 
-.navbar ul a {
+.navbar div a {
   display: block;
   padding: 38px 16px;
   font-family: "Barlow Condensed";
@@ -127,7 +127,7 @@ p {
   border-bottom: 3px solid transparent;
 }
 
-.navbar ul a:hover {
+.navbar div a:hover {
   border-bottom: 3px solid #fff;
 }
 

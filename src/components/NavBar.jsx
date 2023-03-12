@@ -23,7 +23,7 @@ const NavBar = () => {
         <div className="navbar_divider absolute xl:max-w-[473px] left-[170px] xl:block hidden"></div>
       </div>
       <div className="navbar flex  justify-center items-center lg:max-w-[830px] lg:w-full px-0 md:px-10 ">
-        <ul className="md:flex hidden xl:gap-12 gap-9 uppercase lg:text-base text-sm">
+        <div className="md:flex hidden xl:gap-12 gap-9 uppercase lg:text-base text-sm">
           <NavLink to="/" activeclassname="active">
             <span>00</span>Home
           </NavLink>
@@ -45,7 +45,7 @@ const NavBar = () => {
           >
             <span>03</span>Technology
           </NavLink>
-        </ul>
+        </div>
         {toggleMobileMenu ? (
           <img
             src={IconClose}
