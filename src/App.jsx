@@ -1,9 +1,12 @@
+import LoadingOverlay from "./layouts/LoadingOverlay";
 import Router from "./routes/Router";
 
 function App() {
   return (
     <>
-      <Router />
+      <LoadingOverlay>
+        <Router />
+      </LoadingOverlay>
     </>
   );
 }

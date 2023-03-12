@@ -4,7 +4,7 @@ import Title from "../../components/Title";
 
 import Container from "../../layouts/Container";
 
-const Destination = () => {
+const Technology = () => {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
   useEffect(() => {
     function handleResize() {
@@ -20,16 +20,19 @@ const Destination = () => {
     <Container
       style={`${
         windowWidth > 1024
-          ? "bg-background-destination-desktop"
+          ? "bg-background-technology-desktop"
           : windowWidth > 480
-          ? "bg-background-destination-tablet"
-          : "bg-background-destination-mobile"
-      }`}
-      style1="xs:px-[55px] px-[24px] py-[40px]"
+          ? "bg-background-technology-tablet"
+          : "bg-background-technology-mobile"
+      } w-full overflow-hidden`}
+      style1={"pt-[40px] xl:pb-[40px] xxs:pb-[0px] pb-[104px]"}
     >
-      <div className="xl:px-[115px] lg:px-[40px] lg:pt-[40px] md:pt-[40px] pb-[118px] lg:text-left text-center">
+      <div className="customxl:px-[115px] lg:pt-[40px] md:pt-[40px] lg:pb-[140px] pb-0 lg:text-left text-center">
         <div className="">
-          <Title number="01" title="Pick Your Destination" />
+          <div className="xs:px-[55px] px-[24px]">
+            <Title number="03" title="Space Launch 101" />
+          </div>
+
           <Outlet />
         </div>
       </div>
@@ -37,4 +40,4 @@ const Destination = () => {
   );
 };
 
-export default Destination;
+export default Technology;

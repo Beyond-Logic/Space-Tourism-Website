@@ -10,16 +10,31 @@ module.exports = {
           "url('/src/assets/home/background-home-tablet.jpg')",
         "background-home-mobile":
           "url('/src/assets/home/background-home-mobile.jpg')",
+
         "background-destination-desktop":
           "url('/src/assets/destination/background-destination-desktop.jpg')",
         "background-destination-tablet":
           "url('/src/assets/destination/background-destination-tablet.jpg')",
         "background-destination-mobile":
           "url('/src/assets/destination/background-destination-mobile.jpg')",
+
+        "background-crew-desktop":
+          "url('/src/assets/crew/background-crew-desktop.jpg')",
+        "background-crew-tablet":
+          "url('/src/assets/crew/background-crew-tablet.jpg')",
+        "background-crew-mobile":
+          "url('/src/assets/crew/background-crew-mobile.jpg')",
+
+        "background-technology-desktop":
+          "url('/src/assets/technology/background-technology-desktop.jpg')",
+        "background-technology-tablet":
+          "url('/src/assets/technology/background-technology-tablet.jpg')",
+        "background-technology-mobile":
+          "url('/src/assets/technology/background-technology-mobile.jpg')",
       },
     },
     screens: {
-      xxs: "300px",
+      xxs: "376px",
       // => @media (min-width: 300px) { ... }
 
       xs: "480px",
@@ -37,6 +52,9 @@ module.exports = {
       xl: "1280px",
       // => @media (min-width: 1280px) { ... }
 
+      customxl: "1380px",
+      // => @media (min-width: 1280px) { ... }
+
       "2xl": "1536px",
       // => @media (min-width: 1536px) { ... }
     },
@@ -44,6 +62,7 @@ module.exports = {
       primary: "#0B0D17",
       secondary: "#D0D6F9",
       white: "#FFFFFF",
+      transparent: "transparent",
     },
   },
   plugins: [],

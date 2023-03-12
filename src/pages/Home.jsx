@@ -28,7 +28,9 @@ const Home = () => {
       >
         <div className="flex lg:flex-row flex-col lg:justify-between justify-center lg:items-end xl:px-[115px] lg:px-[40px] pt-[151px] pb-[131px] lg:text-left text-center">
           <div className="flex flex-col gap-6 ">
-            <h5>SO, YOU WANT TO TRAVEL TO</h5>
+            <h5 className="lg:text-[28px] md:text-[20px] text-[16px]">
+              SO, YOU WANT TO TRAVEL TO
+            </h5>
             <h1 className="md:text-[150px] xxs:text-[80px] text-[40px]">
               SPACE
             </h1>
