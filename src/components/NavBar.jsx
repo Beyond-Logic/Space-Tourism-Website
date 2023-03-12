@@ -24,7 +24,7 @@ const NavBar = () => {
       </div>
       <div className="navbar flex  justify-center items-center lg:max-w-[830px] lg:w-full px-0 md:px-10 ">
         <div className="md:flex hidden xl:gap-12 gap-9 uppercase lg:text-base text-sm">
-          <NavLink to="/" className="active">
+          <NavLink to="/" className={pathname === "/" ? "active" : ""}>
             <span>00</span>Home
           </NavLink>
           <NavLink
