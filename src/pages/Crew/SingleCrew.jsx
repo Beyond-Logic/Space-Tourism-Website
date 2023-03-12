@@ -74,7 +74,7 @@ const SingleCrew = ({ dataCrew }) => {
           <div className="lg:mt-[80px] mt-[40px] lg:mb-0 mb-[40px] xxs:flex hidden lg:justify-start justify-center gap-[24px] bg-blend-normal ">
             <Link to="/crew/douglas-hurley">
               <div
-                className={`lg:w-[15px] lg:h-[15px] h-[10px] w-[10px] rounded-full bg-white ${
+                className={`lg:w-[15px] lg:h-[15px] h-[15px] w-[15px] rounded-full bg-white ${
                   pathname === "/crew/douglas-hurley"
                     ? "opacity-100"
                     : "opacity-20"
@@ -83,7 +83,7 @@ const SingleCrew = ({ dataCrew }) => {
             </Link>
             <Link to="/crew/mark-shuttleworth">
               <div
-                className={`lg:w-[15px] lg:h-[15px] h-[10px] w-[10px] rounded-full bg-white ${
+                className={`lg:w-[15px] lg:h-[15px] h-[15px] w-[15px] rounded-full bg-white ${
                   pathname === "/crew/mark-shuttleworth"
                     ? "opacity-100"
                     : "opacity-20"
@@ -92,7 +92,7 @@ const SingleCrew = ({ dataCrew }) => {
             </Link>
             <Link to="/crew/victor-glover">
               <div
-                className={`lg:w-[15px] lg:h-[15px] h-[10px] w-[10px]  rounded-full bg-white ${
+                className={`lg:w-[15px] lg:h-[15px] h-[15px] w-[15px]  rounded-full bg-white ${
                   pathname === "/crew/victor-glover"
                     ? "opacity-100"
                     : "opacity-20"
@@ -101,7 +101,7 @@ const SingleCrew = ({ dataCrew }) => {
             </Link>
             <Link to="/crew/anousheh-ansari">
               <div
-                className={`lg:w-[15px] lg:h-[15px] h-[10px] w-[10px] rounded-full bg-white ${
+                className={`lg:w-[15px] lg:h-[15px] h-[15px] w-[15px] rounded-full bg-white ${
                   pathname === "/crew/anousheh-ansari"
                     ? "opacity-100"
                     : "opacity-20"
