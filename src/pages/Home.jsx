@@ -59,7 +59,7 @@ const Home = () => {
                 onMouseEnter={() => setIsHovered(true)}
                 onMouseLeave={() => setIsHovered(false)}
               >
-                <h4 className="text-[#0B0D17] lg:text-[32px] text-xl">
+                <h4 className="text-[#0B0D17] lg:text-[32px] text-[20px]">
                   EXPLORE
                 </h4>
               </div>
